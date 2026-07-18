@@ -27,7 +27,7 @@ public class HomeController : Controller
     public IActionResult About()
     {
         ViewData["AboutMe"] = "Hi, I'm Arciaga, Lloyd Nathaniel T., " + 
-            "a 21-year-old college student who appreciates the simple things in life, including a classic color palette" + 
+            "a 21-year-old college student who appreciates the simple things in life, including a classic color palette " + 
             "of grey and black. My educational journey has been a unique adventure, " +
             "beginning with my graduation from Tunasan Annex High School and I also have a " +
             "2 years maritime experience. " +
