@@ -9,6 +9,7 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         ViewData["Name"] = "Arciaga, Lloyd Nathaniel T.";
+        ViewData["Course"] = "BSIT Student | Aspiring Software Developer";
         ViewData["Introduction"] = "I am a dedicated college student navigating the vast world of technology. " +
             "While I might describe myself as having an average aptitude for coding and " +
             "analytical thinking, I make up for it with a strong passion for " +
