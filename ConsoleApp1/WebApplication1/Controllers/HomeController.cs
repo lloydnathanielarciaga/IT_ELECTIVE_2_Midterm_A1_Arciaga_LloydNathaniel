@@ -8,6 +8,7 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
+        ViewData["Greet"] = "Hello! I am";
         ViewData["Name"] = "Arciaga, Lloyd Nathaniel T.";
         ViewData["Course"] = "BSIT Student | Aspiring Software Developer";
         ViewData["Introduction"] = "I am a dedicated college student navigating the vast world of technology. " +
